@@ -24,21 +24,20 @@ Welcome to Exercises Vault, a React JS application built with Material UI that p
 ## Installation
 
 ### Prerequisites
-Make sure you have Node.js and npm installed on your machine.
+- Make sure you have Node.js and npm installed on your machine.
 
 ### Clone the repository
-git clone https://github.com/your-username/exercises-vault.git
-cd exercises-vault
+- git clone https://github.com/your-username/exercises-vault.git
+- cd exercises-vault
 
 ### Install dependencies.
-npm install
+- npm install
 
 ### Create a .env file in the root directory and add your Rapid API keys.
-REACT_APP_EXERCISE_API_KEY=your-exercise-api-key
+- REACT_APP_EXERCISE_API_KEY=your-exercise-api-key
 
 ### Start the development server.
-npm start
-
+- npm start
 
 ## Project Structure
 The *src* folder contains three files and four folders:
