@@ -20,6 +20,12 @@ Welcome to Exercises Vault, a React JS application built with Material UI that p
 - Discover similar exercises based on targeted muscles and equipment.
 
 ## Screenshots
+![image](https://github.com/AliBnh/Exercises-vault/assets/107149305/e385711c-10e9-4022-a1cc-0622b3e2b4f1)
+![image](https://github.com/AliBnh/Exercises-vault/assets/107149305/0be2c81a-b960-48d3-9941-13a47b9f1d85)
+![image](https://github.com/AliBnh/Exercises-vault/assets/107149305/35a477c5-4ed6-441c-81b1-3141e2c32059)
+![image](https://github.com/AliBnh/Exercises-vault/assets/107149305/92c500bd-a6bd-442a-9a2a-ce671e5820b5)
+![image](https://github.com/AliBnh/Exercises-vault/assets/107149305/d53ae147-eae6-4c5d-afc6-99ac55e113bd)
+![image](https://github.com/AliBnh/Exercises-vault/assets/107149305/1ee7bfe0-809a-43c5-bf17-b90d02b29b3a)
 
 ## Installation
 
