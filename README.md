@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Exercises Vault
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#Introduction)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
 
-### `npm start`
+## Introduction
+Welcome to Exercises Vault, a React JS application built with Material UI that provides a curated collection of exercises to help you achieve your fitness goals. The app utilizes two Rapid API services for fetching data on YouTube videos and exercises.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Explore a variety of exercises targeting different body parts.
+- Search for specific exercises using the search functionality.
+- Detailed information about each exercise, including instructions, targeted muscles, secondary muscles, and required equipment.
+- Watch YouTube videos for proper exercise demonstration.
+- Discover similar exercises based on targeted muscles and equipment.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-### `npm run build`
+### Clone the repository
+git clone https://github.com/your-username/exercises-vault.git
+cd exercises-vault
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install dependencies.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Create a .env file in the root directory and add your Rapid API keys.
+REACT_APP_EXERCISE_API_KEY=your-exercise-api-key
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Start the development server.
+npm start
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
+The *src* folder contains three files and four folders:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Folders
+-src/assets: Contains static assets such as images and icons.
+-src/components: Holds reusable React components that are used across different parts of the application.
+-src/pages: Contains two main pages:
++Home Page: The landing page where users can explore exercises based on body parts, search for specific exercises, and view a list of exercises.
++Exercise Details Page: Displays detailed information about a specific exercise, including instructions, targeted muscles, secondary muscles, and required equipment.
+-src/utils: Includes a single utility file fetchData.js. This file contains the logic for fetching data from the Rapid API services.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Files:
+-src/App.js: The main component that serves as the entry point for the application.
+-src/App.css: Styling for the main App component.
+-src/index.js: The entry point for rendering the React application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Dependencies
+@emotion/react and @emotion/styled: For styling components with Emotion.
+@fontsource/roboto: Provides the Roboto font for your application.
+@mui/icons-material and @mui/material: Material-UI components and icons.
+react, react-dom: React core and DOM-specific libraries.
+react-horizontal-scrolling-menu: For creating horizontal scrolling menus in React.
+react-loader-spinner: A loader spinner component for React.
+react-router-dom: For handling routing in your React application.
+react-scripts: Scripts and configuration used by Create React App.
