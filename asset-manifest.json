@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Exercises-vault/static/css/main.7f9bd84d.css",
+    "main.js": "/Exercises-vault/static/js/main.5a9bd56e.js",
+    "static/media/brett-jordan-U2q73PfHFpM-unsplash.jpg": "/Exercises-vault/static/media/brett-jordan-U2q73PfHFpM-unsplash.7c0b85fe3921d7d2eba7.jpg",
+    "static/media/weights_2871284.png": "/Exercises-vault/static/media/weights_2871284.fd4e9b14428e010d5197.png",
+    "index.html": "/Exercises-vault/index.html",
+    "main.7f9bd84d.css.map": "/Exercises-vault/static/css/main.7f9bd84d.css.map",
+    "main.5a9bd56e.js.map": "/Exercises-vault/static/js/main.5a9bd56e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f9bd84d.css",
+    "static/js/main.5a9bd56e.js"
+  ]
+}
